@@ -24,7 +24,7 @@ RUN yum -y install java-1.7.0-openjdk-devel
 # jenkins
 Run wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
 Run rpm --import http://pkg.jenkins-ci.org/redhat/jenkins-ci.org.key
-Run yum install jenkins
+Run yum -y install jenkins
 
 # port
 EXPOSE 8080
