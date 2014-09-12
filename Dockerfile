@@ -30,4 +30,4 @@ Run yum -y install jenkins
 EXPOSE 8080
 
 # start jenkins
-CMD ["service", "jenkins", "start", "&&", "tail", "-f", "/var/log/jenkins/jenkins.log"]
+CMD service jenkins start && tail -f /dev/null
