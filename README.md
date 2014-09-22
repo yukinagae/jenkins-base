@@ -5,10 +5,10 @@ Docker : CentOS6 and jenkins
 
 ## Yo
 
-1. Dockerfileからimageの作成
+1. create image from Dockerfile
 
 		$ docker pull yukinagae/jenkins-base
 
-2. imageからcontainerを起動
+2. start container from image
 	
 		$ docker run -d -p 8080:8080 yukinagae/jenkins-base
